@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/aamershaikh/Documents/AzureSqlDwCustomBinding/SqlBindingAzureFunction/SqlBindingAzureFunction.csproj": {}
+  },
+  "projects": {
+    "/Users/aamershaikh/Documents/AzureSqlDwCustomBinding/SqlBindingAzureFunction/SqlBindingAzureFunction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aamershaikh/Documents/AzureSqlDwCustomBinding/SqlBindingAzureFunction/SqlBindingAzureFunction.csproj",
+        "projectName": "SqlBindingAzureFunction",
+        "projectPath": "/Users/aamershaikh/Documents/AzureSqlDwCustomBinding/SqlBindingAzureFunction/SqlBindingAzureFunction.csproj",
+        "packagesPath": "/Users/aamershaikh/.nuget/packages/",
+        "outputPath": "/Users/aamershaikh/Documents/AzureSqlDwCustomBinding/SqlBindingAzureFunction/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/aamershaikh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.Azure.WebJobs": {
+              "target": "Package",
+              "version": "[3.0.14, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

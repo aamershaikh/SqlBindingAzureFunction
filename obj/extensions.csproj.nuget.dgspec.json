@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/aamershaikh/Documents/AzureSqlDwCustomBinding/SqlBindingAzureFunction/extensions.csproj": {}
+  },
+  "projects": {
+    "/Users/aamershaikh/Documents/AzureSqlDwCustomBinding/SqlBindingAzureFunction/extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aamershaikh/Documents/AzureSqlDwCustomBinding/SqlBindingAzureFunction/extensions.csproj",
+        "projectName": "extensions",
+        "projectPath": "/Users/aamershaikh/Documents/AzureSqlDwCustomBinding/SqlBindingAzureFunction/extensions.csproj",
+        "packagesPath": "/Users/aamershaikh/.nuget/packages/",
+        "outputPath": "/Users/aamershaikh/Documents/AzureSqlDwCustomBinding/SqlBindingAzureFunction/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/aamershaikh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Azure.WebJobs.Script.ExtensionsMetadataGenerator": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
